@@ -1,0 +1,43 @@
+{
+  "name": "mythic-strings",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mythic Strings: a real-time shadow-puppet duel of legends, with AI-forged characters and typed mantras",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n server,client -c yellow,cyan \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "tsx watch src/server/index.ts",
+    "dev:client": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && npm run build:client && npm run build:server",
+    "build:client": "vite build",
+    "build:server": "esbuild src/server/index.ts --bundle --platform=node --format=cjs --target=node22 --outfile=dist/server/index.cjs --external:bufferutil --external:utf-8-validate --log-level=warning",
+    "start": "node dist/server/index.cjs",
+    "test": "vitest --run",
+    "test:e2e": "npm run build && playwright test",
+    "doctor": "node scripts/doctor.mjs",
+    "deploy:aws": "bash infra/aws/deploy.sh",
+    "destroy:aws": "node infra/aws/destroy.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.0.0",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "pixi.js": "^8.23.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.0",
+    "concurrently": "^9.0.0",
+    "esbuild": "^0.28.0",
+    "tsx": "^4.19.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^4.1.12"
+  }
+}

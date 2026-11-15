@@ -1,0 +1,16 @@
+node_modules
+dist
+legacy
+.data
+.env
+.env.*
+.git
+.aws
+.codex
+.agents
+artifacts
+test-results
+playwright-report
+infra/aws/.state
+infra/aws/.build
+*.log

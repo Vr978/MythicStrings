@@ -1,0 +1,524 @@
+{
+  "pbtResults": {
+    "2.4 Write property test for deterministic printing": {
+      "status": "passed",
+      "lastRunTimestamp": 1794447857411
+    },
+    "2.3 Write property test for print/parse round trip": {
+      "status": "passed",
+      "lastRunTimestamp": 1794447890554
+    },
+    "7.2 Write property tests for damage scoring": {
+      "status": "passed",
+      "lastRunTimestamp": 1794448758466
+    },
+    "4.4 Write property test for simulation determinism": {
+      "status": "passed",
+      "lastRunTimestamp": 1794449264590
+    },
+    "7.4 Write property test for the Health_Points invariant": {
+      "status": "passed",
+      "lastRunTimestamp": 1794449959459
+    }
+  },
+  "executionHistory": {
+    "1.1 Create the Vite + TypeScript app with dependencies, test setup, and README": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092018
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445099373
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446325468
+      }
+    ],
+    "2.1 Define Move_Block types and the Move_Primitive parameter registry": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092087
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446329308
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446556992
+      }
+    ],
+    "2.2 Implement the Move_Parser, Move_Printer, equivalence, canonical key, and clamping": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092132
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446562101
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447782139
+      }
+    ],
+    "2.3 Write property test for print/parse round trip": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092153
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447788271
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448674103
+      }
+    ],
+    "2.4 Write property test for deterministic printing": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092170
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447789401
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448675096
+      }
+    ],
+    "3.1 Create Scenario types, trait validation, and hardcoded content": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092189
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446330135
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446558101
+      }
+    ],
+    "3.2 Implement the Scenario_Orchestrator interface with a hardcoded implementation": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092234
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446563722
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447783354
+      }
+    ],
+    "4.1 Implement `SimWorld` with ragdoll puppets": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092251
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446564327
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447784207
+      }
+    ],
+    "4.2 Implement the four Move_Primitives in Rapier2D": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092275
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447790514
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448676376
+      }
+    ],
+    "4.3 Implement the headless Move_Validator": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092298
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448681820
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449188305
+      }
+    ],
+    "4.4 Write property test for simulation determinism": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092339
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449197172
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449806821
+      }
+    ],
+    "5. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092355
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451981722
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794452006810
+      }
+    ],
+    "6.1 Implement the lexicon Guardrail": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092372
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448682951
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449189523
+      }
+    ],
+    "6.2 Implement the keyword/template Move_Generator": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092388
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448684161
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449190713
+      }
+    ],
+    "6.3 Implement the in-memory Move_Library with localStorage persistence": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092403
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448685420
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449192319
+      }
+    ],
+    "6.4 Implement the Recommendation_Engine and previous-Moves list": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092420
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449198539
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449808338
+      }
+    ],
+    "7.1 Implement damage scoring, creativity decay, trait alignment, and voting": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092447
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447791781
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448677518
+      }
+    ],
+    "7.2 Write property tests for damage scoring": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092477
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448686745
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449193273
+      }
+    ],
+    "7.3 Implement the pure turn reducer, resolution decision, and fallback ordering": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092494
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449199428
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449809535
+      }
+    ],
+    "7.4 Write property test for the Health_Points invariant": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092510
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449817661
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794450791588
+      }
+    ],
+    "8. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092527
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794452010388
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794452034307
+      }
+    ],
+    "9.1 Implement the back-lit stage and puppet renderer": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092543
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449818696
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794450790821
+      }
+    ],
+    "9.2 Implement the UI screens and HUD": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092561
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794450799708
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451240133
+      }
+    ],
+    "10.1 Implement the turn controller and app entry point": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092588
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451244135
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451845933
+      }
+    ],
+    "10.3 Build, test, and confirm the dev server responds on localhost": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092620
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451849619
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451973893
+      }
+    ],
+    "11. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794445092637
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794452038035
+      },
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794452287397
+      }
+    ],
+    "1. Scaffold the project": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794446325522
+      }
+    ],
+    "3. Add hardcoded content and the Scenario_Orchestrator stub": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794447783407
+      }
+    ],
+    "2. Implement the Move_Block core (schema, registry, parser, printer, clamping)": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794448675134
+      }
+    ],
+    "4. Build ragdoll physics, Move_Primitives, and the Move_Validator": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449806865
+      }
+    ],
+    "6. Implement the hardcoded AI layer behind swap-in interfaces": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794449808364
+      }
+    ],
+    "7. Implement turn logic, fallback selection, and damage scoring": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794450791616
+      }
+    ],
+    "9. Build the PixiJS renderer and the DOM UI": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451240213
+      }
+    ],
+    "10. Wire the game together and verify it runs locally": [
+      {
+        "executionId": "a787ba8f-ea6e-4fd2-9a41-7f7f6f780e5d",
+        "chatSessionId": "sess_6000477a-4ae2-47af-87a9-43eea6eec4b5",
+        "timestamp": 1794451973951
+      }
+    ]
+  }
+}

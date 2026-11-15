@@ -1,0 +1,29 @@
+{
+  "name": "mythic-strings",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mythic Strings: a locally hosted shadow-puppet battle proof of concept",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest --run",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "@dimforge/rapier2d-deterministic-compat": "^0.21.0",
+    "earcut": "^3.2.4",
+    "pixi.js": "^8.23.0",
+    "pure-rand": "^8.4.2"
+  },
+  "devDependencies": {
+    "fast-check": "^4.10.2",
+    "happy-dom": "^21.0.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^4.1.12"
+  }
+}
