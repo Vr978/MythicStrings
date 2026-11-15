@@ -2,6 +2,10 @@
 
 **A real-time duel of legends, staged as a Tholu Bommalata leather shadow play, where you fight with your imagination as well as your reflexes.**
 
+### ▶ Play it live: **[https://dc4f89cb69bd1.cloudfront.net](https://dc4f89cb69bd1.cloudfront.net)**
+
+Hosted on AWS (CloudFront → EC2 → DynamoDB). Open the link on two devices and choose **Play online** to duel through an invite code.
+
 ![Sun Wukong vs Thor: Thor's typed "dome of lightning" mantra blocks the Monkey King's staff](docs/screenshots/mantra-cast-wukong-vs-thor.png)
 
 ## The problem
