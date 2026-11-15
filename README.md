@@ -35,7 +35,7 @@ Fairness is built into the rules engine rather than left to the AI. Damage budge
 The editable draw.io source is [docs/architecture.drawio](docs/architecture.drawio): open it at [app.diagrams.net](https://app.diagrams.net) or in the draw.io desktop app.
 
 - **One deterministic 60 Hz combat engine** (`src/shared`) runs in the browser for local play and on the server for online play. Online clients send only inputs and text, never HP or damage.
-- **AI orchestrator:** checks an exact cache, then Supermemory semantic memory, then Gemini, then Amazon Bedrock (Claude Haiku 5.5), and finally a deterministic local interpreter, all under per-request deadlines and rate and daily limits.
+- **AI orchestrator:** checks an exact cache, then Gemini, then Amazon Bedrock (Claude Haiku 5.5), and finally a deterministic local interpreter, all under per-request deadlines and rate and daily limits.
 - **Generated SVG art** is rebuilt through a strict element and attribute allow-list before it is rendered.
 - **Deployment:** a single Node process serves the client, the REST API and WebSockets. On AWS it runs on EC2 behind CloudFront (HTTPS + WSS), stores data in DynamoDB, and is installed through S3 and Systems Manager.
 
