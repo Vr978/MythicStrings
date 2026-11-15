@@ -64,6 +64,8 @@ The complete game works without cloud keys: ten curated legends, the character f
 | Open mantra | Q | Right Shift |
 | Cast / cancel while typing | Enter / Escape | Enter / Escape in the focused field |
 
+The ♫ button toggles the soundtrack, *Under the Banyan Crown* (an AI-generated song), together with the fight sound effects. Music starts after your first click or key press, because browsers block autoplay.
+
 Online players can also move with arrow keys. Buttons work with a mouse or touch. **Enter the theatre** starts practice; **Local duel** uses two seats on one machine; **Play online** creates or joins an invite-code room.
 
 Two attached keyboards work as one browser keyboard. Browsers cannot attribute ordinary keystrokes to separate physical keyboards; on one machine, text goes to the focused mantra box. Both mantra windows can be open together. Online players type independently on their own devices.

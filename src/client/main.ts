@@ -38,7 +38,7 @@ let inviteCode = new URLSearchParams(location.search).get('join')?.replace(/[^a-
 
 $('#app').innerHTML = `<header class="app-header">
   <button class="brand" id="brand" aria-label="Mythic Strings home">${logo}<span>MYTHIC <b>STRINGS</b><small>A SHADOW PLAY, REIMAGINED</small></span></button>
-  <nav><span class="service-status" id="service-status">Lighting the lamp…</span><button class="text-button" id="how-to">How to play</button><button class="icon-button" id="sound-toggle" aria-label="Toggle sound" aria-pressed="${sound.enabled}">${sound.enabled ? '♫' : '♪'}</button><button class="icon-button" id="fullscreen" aria-label="Toggle fullscreen">⛶</button></nav>
+  <nav><span class="service-status" id="service-status">Lighting the lamp…</span><button class="text-button" id="how-to">How to play</button><button class="icon-button" id="sound-toggle" aria-label="Toggle music and sound" aria-pressed="${sound.enabled}">${sound.enabled ? '♫' : '♪'}</button><button class="icon-button" id="fullscreen" aria-label="Toggle fullscreen">⛶</button></nav>
 </header>
 <main id="theatre"><div id="stage-host" aria-hidden="true"></div><div class="stage-vignette"></div><div id="screen"><div class="boot-state">${logo}<p>Unfurling the screen…</p></div></div><div id="hud"></div><div id="result" hidden></div><button id="leave-duel" class="text-button" hidden>← Leave duel</button></main>
 <footer class="app-footer"><span>THOLU BOMMALATA <b>·</b> ANDHRA PRADESH, INDIA</span><span>ANCIENT CRAFT. UNWRITTEN POSSIBILITIES.</span><span>SUNHACKS 9.0 ${ornament} 2026</span></footer>

@@ -1,10 +1,15 @@
 import type { SimEvent } from '../shared/sim';
 import { readSaved, save } from './api';
+import themeUrl from './assets/under-the-banyan-crown.mp3';
 
-/** Small synthesised percussion and chimes. No downloads, autoplay, or external audio services. */
+/**
+ * The looping soundtrack ("Under the Banyan Crown") plus small synthesised percussion and chimes.
+ * One toggle controls both. Music starts on the first user gesture, because browsers block autoplay.
+ */
 export class Sound {
   enabled = readSaved('sound', true);
   private context: AudioContext | null = null;
+  private music: HTMLAudioElement | null = null;
   private lastHit = 0;
 
   unlock(): void {
@@ -13,12 +18,25 @@ export class Sound {
       this.context ??= new AudioContext();
       if (this.context.state === 'suspended') void this.context.resume().catch(() => {});
     } catch { /* Audio is optional on devices that do not expose Web Audio. */ }
+    this.playMusic();
+  }
+
+  private playMusic(): void {
+    try {
+      if (!this.music) {
+        this.music = new Audio(themeUrl);
+        this.music.loop = true;
+        this.music.volume = 0.25;
+      }
+      if (this.music.paused) void this.music.play().catch(() => {});
+    } catch { /* Music is optional on devices without HTML audio. */ }
   }
 
   toggle(): boolean {
     this.enabled = !this.enabled;
     save('sound', this.enabled);
     if (this.enabled) this.unlock();
+    else this.music?.pause();
     return this.enabled;
   }
 

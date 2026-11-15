@@ -235,6 +235,7 @@ const TYPES: Record<string, string> = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8',
   '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp',
   '.ico': 'image/x-icon', '.woff2': 'font/woff2', '.wasm': 'application/wasm', '.map': 'application/json', '.txt': 'text/plain; charset=utf-8',
+  '.mp3': 'audio/mpeg',
 };
 const COMPRESSIBLE = new Set(['.html', '.js', '.css', '.json', '.svg', '.map', '.txt']);
 const gzCache = new Map<string, { mtime: number; body: Buffer }>();
@@ -269,6 +270,22 @@ function serveStatic(req: IncomingMessage, res: ServerResponse, pathname: string
     }
     res.writeHead(200, { ...headers, 'Content-Encoding': 'gzip', 'Content-Length': entry.body.length, Vary: 'Accept-Encoding' });
     res.end(req.method === 'HEAD' ? undefined : entry.body);
+    return;
+  }
+  // Byte ranges let media elements (Safari in particular) stream and loop audio.
+  headers['Accept-Ranges'] = 'bytes';
+  const range = /^bytes=(\d*)-(\d*)$/.exec(String(req.headers.range ?? ''));
+  if (range && (range[1] || range[2])) {
+    const start = range[1] ? Number(range[1]) : Math.max(0, stat.size - Number(range[2]));
+    const end = range[1] && range[2] ? Math.min(Number(range[2]), stat.size - 1) : stat.size - 1;
+    if (start > end || start >= stat.size) {
+      res.writeHead(416, { ...headers, 'Content-Range': `bytes */${stat.size}` });
+      res.end();
+      return;
+    }
+    res.writeHead(206, { ...headers, 'Content-Range': `bytes ${start}-${end}/${stat.size}`, 'Content-Length': end - start + 1 });
+    if (req.method === 'HEAD') res.end();
+    else createReadStream(file, { start, end }).pipe(res);
     return;
   }
   res.writeHead(200, { ...headers, 'Content-Length': stat.size });
